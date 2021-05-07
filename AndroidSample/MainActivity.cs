@@ -50,7 +50,7 @@ namespace AndroidSample
 
         private void initVGSCollect()
         {
-            collect = new VGSCollect(this, "tntpszqgikn", Com.Verygoodsecurity.Vgscollect.Core.Environment.Sandbox);
+            collect = new VGSCollect(this, "<VAULT_ID>", Com.Verygoodsecurity.Vgscollect.Core.Environment.Sandbox);
             collect.AddOnResponseListeners(this);
             collect.AddOnFieldStateChangeListener(this);
         }
