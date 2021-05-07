@@ -54,7 +54,7 @@ Go to your <a href="https://dashboard.verygoodsecurity.com/" target="_blank">VGS
 
 Setup `"<VAULT_ID>"`.
 
-**VGS Collect SDK**. Find [MainActivity.cs](https://github.com/vgs-samples/vgs-collect-android-xamarin-demo/blob/master/AndroidSample/MainActivity.cs#L27) and replace `VAULT_ID` constant with your <a href="https://www.verygoodsecurity.com/docs/terminology/nomenclature#vault" target="_blank">vault id</a>.
+Find [MainActivity.cs](https://github.com/vgs-samples/vgs-collect-android-xamarin-demo/blob/master/AndroidSample/MainActivity.cs#L53) and replace `VAULT_ID` constant with your <a href="https://www.verygoodsecurity.com/docs/terminology/nomenclature#vault" target="_blank">vault id</a>.
 
 
 ### Step 5
