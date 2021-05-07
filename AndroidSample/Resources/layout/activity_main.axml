@@ -18,7 +18,7 @@
                 android:id="@+id/cardNumberField"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:fieldName="card_data.cardNumber"
+                app:fieldName="cardNumber"
                 app:numberDivider=" "
                 app:text="4111111111111111"
                 android:nextFocusDown="@+id/cardHolderField"
@@ -39,7 +39,7 @@
                 android:layout_height="match_parent"
                 android:nextFocusDown="@+id/cardExpDateField"
                 app:imeOptions="actionNext"
-                app:fieldName="card_data.personal_data.cardHolder"
+                app:fieldName="cardHolder"
                 app:text="John Galt"/>
         </com.verygoodsecurity.vgscollect.widget.VGSTextInputLayout>
 
@@ -62,7 +62,7 @@
                 android:id="@+id/cardExpDateField"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:fieldName="card_data.personal_data.secret.expDate"
+                app:fieldName="expDate"
                 android:nextFocusDown="@+id/cardCVCField"
                 app:imeOptions="actionNext"
                 app:inputType="date"
@@ -82,7 +82,7 @@
                 android:id="@+id/cardCVCField"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                app:fieldName="card_data.cardCvc"
+                app:fieldName="cardCvc"
                 app:imeOptions="actionDone"
                 app:text="123"/>
         </com.verygoodsecurity.vgscollect.widget.VGSTextInputLayout>
